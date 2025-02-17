@@ -2,7 +2,7 @@
 Description= Tcpdump runner
 
 [Service]
-ExecStart=/home/ubuntu/tcpdump.sh
+ExecStart=/usr/local/bin/tcpdump.sh
 Restart=on-failure
 
 [Install]
